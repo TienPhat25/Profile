@@ -1,13 +1,14 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
   }
   
   body {
-    height: 100vh;
-    width: 100vw;
-    background: linear-gradient(to left bottom, rgb(36, 41, 41), rgb(117, 250, 221));
+    height: 200vh;
+    width: 200 px;;
+    background: url(	https://images.pexels.com/photos/10897656/pexels-photo-10897656.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load) ;
+    background-size: cover;
    
   }
  
@@ -20,7 +21,14 @@
    
     
   }
-  
+  .photo{
+  border-bottom-left-radius:  200%;
+border-bottom-right-radius:  200%;
+border-top-left-radius:200% ;
+border-top-right-radius:200% ;
+margin-left: 8%;
+
+ }
   .container {
     border-radius: 10%;
     height: 500px;
@@ -28,17 +36,20 @@
     box-shadow: 0 10px 20px black;
     background-size: cover;
     font-family: 'Abel', sans-serif;
-    background-image: url("https://scontent.fdad3-5.fna.fbcdn.net/v/t1.6435-9/147413901_1009649492895125_8223109708409102239_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=8bfeb9&_nc_ohc=l1iUR_AP384AX_yNM8v&_nc_ht=scontent.fdad3-5.fna&oh=00_AT-3S1VLJEGdt1zexdTJOLNdf-fezXvmOVjfm0T3lJI6Lg&oe=634E0A42");
   }
   
   .gradient {
+    
     border-radius: 10%;
     height: 100%;
     width: 100%;
     top: 0;
-    background: linear-gradient(to top, rgba(30, 228, 235, 0.7), rgba(0, 0, 0, 0.21));
-    color: white;
+    background: url(	https://images.pexels.com/photos/10897656/pexels-photo-10897656.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load) no-repeat center;
+    backdrop-filter: blur(15px);
+    opacity: 0,2;
+    
   }
+  
   
   .content {
     bottom: 0;
@@ -49,32 +60,35 @@
   
   h2 {
     font-size: xx-large;
-    letter-spacing: -1px;
+    letter-spacing: 0 px;
+    padding-top: 4px;
   }
   
   .details {
     font-style: italic;
-    color: rgb(185, 206, 224);
+    color: rgb(10, 10, 10);
   }
   
   .icons {
     display: flex;
     flex-direction: column;
-    top: -30px;
+    top: -30%;
     position: absolute;
-    left: 85%;
+    left: 90%;
+  
   }
   
   .icons i {
-    margin:10px 0 20px 0;
+    margin:25px 0 5px 0;
     font-size:30px;
     margin-bottom: 0px;
-    color: rgb(202, 215, 226);
+    color: rgb(0, 0, 0);
     transition: 0.6s;
   }
   
   .icons i:hover {
-    color: rgb(20, 238, 209);
+    color: rgb(231, 231, 231);
+    
   }
   
   @media screen and(min-width:200px) {
@@ -90,4 +104,9 @@
         margin-bottom: 10px;
     }
   }
+
+
+
+
+
 
