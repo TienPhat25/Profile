@@ -1,41 +1,23 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Abel&family=Montserrat:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="all.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" type="text/css" href="style.css"
-    <link rel="icon" type="images/icon" href="assets/css/images/favicon.ico">
+<h1 style="color:red;">Tien Phat Siu Cap </h1>
+<i style="color:blue;">Tiến Phát<u> phá khóa</u> </i>
+<script>
+// Lấy phần tử h1 có màu đỏ
+var h1 = document.querySelector("h1");
 
-</head>
-<body>
-    
-    <div class="main">
-        <div class="container">
-            <div class="gradient">
-                <div class="card">
-        <img src="https://scontent.fdad3-1.fna.fbcdn.net/v/t39.30808…DGh23YtUdDu-jDZG8f71ypiQ41HDMlX8Mpg3A&oe=6388110D" width="300px" height="300px"alt="" class="photo">
-                </div>
-                </div>
-                <div class="content">
-                    <h2>PHAM TIEN <br>PHAT</h2>
-                    <p>19 year olds</p>
-                    <br>
-                    <p class="details">I am a Professional Web developer and I have 5+ month's experience in Web Development, HTML, CSS .</p>
-                    <div class="icons">
-                    <a href="https://www.facebook.com/phamtienphat25/ "><i class="fa-brands fa-facebook"></i></a>      
-                    <a href="https://www.instagram.com/t.ph3t/"><i class="fa-brands fa-instagram"></i></a>   
-                    <a href="https://www.messenger.com/t/100009129270010/"><i class="fa-brands fa-facebook-messenger"></i></a> 
-                   <a href="https://github.com/TienPhat25"><i class="fa-brands fa-github"></i></a> 
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
+// Lấy phần tử i có màu xanh
+var i = document.querySelector("i");
+
+// Lấy phần tử u trong i
+var u = i.querySelector("u");
+
+// Thêm sự kiện click cho h1
+h1.addEventListener("click", function() {
+  // Đổi màu nền của h1 thành xanh lá cây
+  h1.style.backgroundColor = "green";
+});
+
+// Thêm sự kiện click cho u
+u.addEventListener("click", function() {
+  // Đổi nội dung của u thành "mở khóa"
+  u.textContent = "mở khóa";
+});</script>
