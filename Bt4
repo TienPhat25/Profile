@@ -1,0 +1,23 @@
+<h1 style="color:red;">Tien Phat Siu Cap </h1>
+<i style="color:blue;">Tiến Phát<u> phá khóa</u> </i>
+<script>
+// Lấy phần tử h1 có màu đỏ
+var h1 = document.querySelector("h1");
+
+// Lấy phần tử i có màu xanh
+var i = document.querySelector("i");
+
+// Lấy phần tử u trong i
+var u = i.querySelector("u");
+
+// Thêm sự kiện click cho h1
+h1.addEventListener("click", function() {
+  // Đổi màu nền của h1 thành xanh lá cây
+  h1.style.backgroundColor = "green";
+});
+
+// Thêm sự kiện click cho u
+u.addEventListener("click", function() {
+  // Đổi nội dung của u thành "mở khóa"
+  u.textContent = "mở khóa";
+});</script>
